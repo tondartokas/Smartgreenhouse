@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=Ligth-1 Pin=R6-1
+Removed Pin From Net: NetName=Ligth-3 Pin=R8-1
+Added Pin To Net: NetName=Ligth-3 Pin=R6-1
+Added Pin To Net: NetName=Ligth-1 Pin=R8-1
+Added Member To Class: ClassName=Sheet2 Member=Component R5 1k
+Added Room: Name=Sheet2

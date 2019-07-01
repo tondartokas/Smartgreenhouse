@@ -1,0 +1,9 @@
+Added Component: Designator=AMS1(AMS1117)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=AMS1-1
+Added Pin To Net: NetName=+5 Pin=AMS1-2
+Added Pin To Net: NetName=+3.3v Pin=AMS1-3
+Added Pin To Net: NetName=+3.3v Pin=AMS1-3
+Added Member To Class: ClassName=Sheet2 Member=Component AMS1 AMS1117
+Added Member To Class: ClassName=Sheet2 Member=Component R5 1k
+Added Room: Name=Sheet2

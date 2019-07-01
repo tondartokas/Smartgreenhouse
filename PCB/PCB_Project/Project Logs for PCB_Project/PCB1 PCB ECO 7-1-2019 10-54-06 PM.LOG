@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=Sheet2 Member=R?
+Change Component Footprint: Designator=R1 Old Footprint=RES 0805 (2012X06L) New Footprint=RES 1206 (3216X08L)
+Change Component Footprint: Designator=R2 Old Footprint=RES 0805 (2012X06L) New Footprint=RES 1206 (3216X08L)
+Change Component Footprint: Designator=R3 Old Footprint=RES 0805 (2012X06L) New Footprint=RES 1206 (3216X08L)
+Change Component Footprint: Designator=R4 Old Footprint=RES 0805 (2012X06L) New Footprint=RES 1206 (3216X08L)
+Change Component Footprint: Designator=R5 Old Footprint=RES 0805 (2012X06L) New Footprint=RES 1206 (3216X08L)
+Change Component Footprint: Designator=R6 Old Footprint=RES 0805 (2012X06L) New Footprint=RES 1206 (3216X08L)
+Change Component Footprint: Designator=R7 Old Footprint=RES 0805 (2012X06L) New Footprint=RES 1206 (3216X08L)
+Change Component Footprint: Designator=R8 Old Footprint=RES 0805 (2012X06L) New Footprint=RES 1206 (3216X08L)
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Added Member To Class: ClassName=Sheet2 Member=Component R5 1k
+Added Room: Name=Sheet2
