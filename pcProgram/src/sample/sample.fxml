@@ -1,6 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.FlowPane?>
 
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+
+<?import eu.hansolo.medusa.Gauge?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<FlowPane fx:id="mainPane" alignment="CENTER_RIGHT" orientation="VERTICAL" hgap="10" vgap="10"
+          xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.172-ea"
+          fx:controller="sample.Controller">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+    <HBox fx:id="top" alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="${mainPane.width-10}" style="-fx-background-color:#42f59e">
+        <Button fx:id="starts" text="Start" onAction="#starts"/>
+        <Button fx:id="stops" text="Stop" onAction="#stops"/>
+        <Label fx:id="myIp" text="ip is:..." style="-fx-font-size: 18" />
+    </HBox>
+    <HBox fx:id="body" alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="${mainPane.width}">
+        <Gauge fx:id="humidity" unit="percent" skinType="FLAT" value="20" minValue="10"/>
+        <Gauge fx:id="temp" unit="centigrade" skinType="FLAT" value="20" minValue="10"/>
+    </HBox>
+
+    <HBox fx:id="2" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color:#42f59e">
+
+    </HBox>
+</FlowPane>
